@@ -1,0 +1,19 @@
+td img {
+    vertical-align: middle;
+    margin-right: 10px;
+    max-width: 60px;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bt {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}

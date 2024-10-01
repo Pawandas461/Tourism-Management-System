@@ -1,0 +1,15 @@
+<?php
+session_start();
+unset($_SESSION['email']);
+unset($_SESSION['username']);
+unset($_SESSION['login_ok']);
+unset($_SESSION['verified']);
+unset($_SESSION['EMAIL2']);
+session_unset();
+?>
+<script>
+    window.history.back();
+</script>
+<?php
+die();
+?>
